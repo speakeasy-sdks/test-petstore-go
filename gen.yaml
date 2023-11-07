@@ -2,25 +2,28 @@ configVersion: 1.0.0
 management:
   docChecksum: deaac08374f9635cd3b9a400e1e20c6b
   docVersion: 1.0.0
-  speakeasyVersion: 1.109.2
-  generationVersion: 2.173.0
+  speakeasyVersion: 1.114.1
+  generationVersion: 2.181.1
 generation:
-  comments:
-    disableComments: false
-    omitDescriptionIfSummaryPresent: false
-  baseServerURL: ""
-  repoURL: https://github.com/speakeasy-sdks/test-petstore-go.git
+  comments: {}
   sdkClassName: test
-  singleTagPerOp: false
-  tagNamespacingDisabled: false
+  repoURL: https://github.com/speakeasy-sdks/test-petstore-go.git
 features:
   go:
-    core: 2.94.0
+    core: 3.1.0
     globalServerURLs: 2.82.0
 go:
-  version: 0.1.0
+  version: 0.2.0
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
+  imports:
+    option: openapi
+    paths:
+      callbacks: pkg/models/callbacks
+      errors: pkg/models/sdkerrors
+      operations: pkg/models/operations
+      shared: pkg/models/shared
+      webhooks: pkg/models/webhooks
   installationURL: https://github.com/speakeasy-sdks/test-petstore-go
   maxMethodParams: 0
   packageName: github.com/speakeasy-sdks/test-petstore-go
