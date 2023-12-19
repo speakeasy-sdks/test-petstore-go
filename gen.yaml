@@ -2,20 +2,22 @@ configVersion: 1.0.0
 management:
   docChecksum: deaac08374f9635cd3b9a400e1e20c6b
   docVersion: 1.0.0
-  speakeasyVersion: 1.126.0
-  generationVersion: 2.213.3
+  speakeasyVersion: 1.127.0
+  generationVersion: 2.220.0
 generation:
   comments: {}
   sdkClassName: test
   repoURL: https://github.com/speakeasy-sdks/test-petstore-go.git
   usageSnippets:
     optionalPropertyRendering: withExample
+  fixes:
+    nameResolutionDec2023: false
 features:
   go:
-    core: 3.2.0
+    core: 3.2.2
     globalServerURLs: 2.82.1
 go:
-  version: 0.3.0
+  version: 0.3.1
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
   imports:
