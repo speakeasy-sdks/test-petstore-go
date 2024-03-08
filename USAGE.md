@@ -6,7 +6,6 @@ import (
 	"context"
 	testpetstorego "github.com/speakeasy-sdks/test-petstore-go"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -17,8 +16,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }

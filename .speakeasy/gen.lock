@@ -3,18 +3,19 @@ id: 8b1dd881-e9ac-4b4f-8826-767ffe7d05ec
 management:
   docChecksum: deaac08374f9635cd3b9a400e1e20c6b
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.272.4
-  releaseVersion: 0.5.2
-  configChecksum: f2d4ba6c6413d389db030c079931decb
+  speakeasyVersion: 1.204.1
+  generationVersion: 2.279.1
+  releaseVersion: 0.6.0
+  configChecksum: 890ac1e4ae0d3917eb49b298250982d6
   repoURL: https://github.com/speakeasy-sdks/test-petstore-go.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test-petstore-go
   published: true
 features:
   go:
-    core: 3.4.3
+    core: 3.4.4
     globalServerURLs: 2.82.1
+    responseFormat: 0.1.0
 generatedFiles:
   - pets.go
   - test.go
